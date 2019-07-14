@@ -1,5 +1,5 @@
 # Safe-Ride-Web
-Books the saferide shift online. Check for information at https://info.rpi.edu/safe-ride/.
+Books the saferide shift online. Check more information at https://info.rpi.edu/safe-ride/.
 
 ### license 
 GNU GENERAL PUBLIC LICENSE
