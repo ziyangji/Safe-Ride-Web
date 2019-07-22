@@ -8,9 +8,10 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 
 ## Goal for Summer 2019 (Milestones)
 - [x] Team up
+- [x] Find materials might be used
 - [ ] Get everyone familiar with web technologies 
+- [ ] implement rpi user log in
 - [ ] Design and implement program structure
-- [ ] implement rpi user login
 - [ ] Design and implement web UI
 
 ### license 
