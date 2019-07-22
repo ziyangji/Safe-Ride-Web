@@ -4,8 +4,14 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 ## Team members:
 + Donglin Liu liud8@rpi.edu
 + Ziyang Ji jiz@rpi.edu
-+ Maoyu Wang
++ Maoyu Wang wangm16@rpi.edu
 
+## Goal for Summer 2019 (Milestones)
+- [x] Team up
+- [ ] Get everyone familiar with web technologies 
+- [ ] implement rpi user log in
+- [ ] Design and implement program structure
+- [ ] Design and implement web UI
 
 ### license 
 GNU GENERAL PUBLIC LICENSE
