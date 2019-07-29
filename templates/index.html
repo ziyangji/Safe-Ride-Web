@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPI Safe Ride</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <link rel="stylesheet" href="/static/css/mdui.min.css">
+    <script src="/static/js/mdui.min.js"></script>
+</head>
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-light-blue mdui-loaded mdui-drawer-body-left">
+
+<header class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-theme">
+        <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
+              mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+        <a href="./" class="mdui-typo-headline mdui-hidden-xs">RPI Safe Ride</a>
+        <a href="" class="mdui-typo-title">Home</a>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="https://github.com/ziyangji/Safe-Ride-Web" target="_blank"
+           class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Github'}">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36"
+                 enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon"
+                 style="width: 24px;height:24px;">
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5
+	c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
+	c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4
+	c-0.2-0.4-0.7-2.1,0.2-4.3c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7
+	c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5
+	c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C34.3,8.7,27,1.4,18,1.4z"></path>
+      </svg>
+        </a>
+    </div>
+</header>
+
+<div class="mdui-drawer" id="main-drawer">
+    <div class="mdui-list" mdui-collapse="{accordion: true}">
+        <div class="mdui-collapse-item mdui-collapse-item-open">
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="index.html" class="mdui-list-item mdui-ripple mdui-list-item-active">Home</a>
+                <a href="login.html" class="mdui-list-item mdui-ripple">Login</a>
+                <a href="signup.html" class="mdui-list-item mdui-ripple">Signup</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mdui-container">
+    <p></p>
+    <div class="mdui-row">
+        <h1>About</h1>
+        <h1>Service Restrictions</h1>
+        <p>Safe Ride <strong>will provide</strong> transportation for the following:</p>
+        <ul>
+            <li>To campus buildings and spaces (residence halls, the Union, academic buildings, etc.) from anywhere
+                within the service area.
+            </li>
+            <li>Rides to your home from locations within the service area.</li>
+            <li>Rides from campus to your home whether on-campus or off-campus</li>
+        </ul>
+        <p>Safe Ride <strong>will not </strong>provide transportation for the following:</p>
+        <ul>
+            <li>To non-residential locations off-campus (restaurants, bars, shopping centers, etc.).</li>
+            <li>Rides from campus that are not taking a student to THEIR HOME.</li>
+            <li>Rides from off-campus housing to anywhere but campus.</li>
+            <li>Anywhere that is outside of the service area (see map - Lake Ave is the East Boundary - Walgreens on
+                Hoosick)
+            </li>
+        </ul>
+        <p>Violating these policies may result in the loss of Safe Ride privileges.</p>
+        <h1>Service Coverage</h1>
+        <img class="mdui-img-fluid" src="/static/imgs/Safe_Ride_Service.png" alt="Service Coverage">
+        <h1>Safe Ride Etiquette</h1>
+        <div class="field-items">
+            <div class="field-item even">
+                <ul>
+                    <li>Please be respectful to your Safe Ride staff and vehicle at all times.</li>
+                    <li>Notify the Safe Ride dispatcher of how many people are in your party and their destination(s).
+                    </li>
+                    <li>Please refrain from smoking, vaping, eating, or consuming alcoholic beverages in the vehicle.
+                    </li>
+                    <li>Please be ready to go when your Safe Ride arrives and ready to exit the vehicle when you arrive
+                        at your location.
+                    </li>
+                    <li>Please clean up after yourself by picking up any garbage before exiting the vehicle.</li>
+                    <li>Please ensure that you have all of your belongings (phone, keys, wallet, etc.) before exiting
+                        the vehicle.
+                    </li>
+                    <li>If you have to cancel your ride, please call immediately to allow others to utilize the
+                        timeslot.
+                    </li>
+                    <li>There will be a charge of $50.00–$200.00 for any cleanup of bodily fluids or damage to the
+                        vehicle.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<p></p>
+
+
+</body>
+<script type="text/javascript">
+
+</script>
+</html>
