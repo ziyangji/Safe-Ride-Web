@@ -16,5 +16,18 @@ def login_page():
 def signup_page():
     return render_template("signup.html")
 
+
+@app.route('/driver.html')
+def driver_page():
+    return render_template("driver.html")
+
+@app.route('/admin.html')
+def admin_page():
+    return render_template("admin.html")
+
+@app.route('/order.html')
+def order_page():
+    return render_template("order.html")
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8888)
