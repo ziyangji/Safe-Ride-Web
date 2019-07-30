@@ -10,7 +10,7 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 - [x] Team up
 - [x] Find materials might be used
 - [x] Get everyone familiar with web technologies 
-- [ ] implement rpi user log in
+- [ ] implement CAS log in
 - [x] Design and implement program structure
 - [ ] Design and implement web UI
 
