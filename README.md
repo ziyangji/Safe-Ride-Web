@@ -9,7 +9,7 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 ## Goal for Summer 2019 (Milestones)
 - [x] Team up
 - [x] Find materials might be used
-- [ ] Contact with safe ride admin
+- [ ] Contact with safe ride admin (Since Safe Ride is recently using an APP, we will see what's going on)
 - [x] Get everyone familiar with web technologies 
 - [ ] Implement CAS log in
 - [x] Design and implement program structure
