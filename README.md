@@ -16,7 +16,7 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 - [ ] Design and implement web UI
 
 ## Language
-Python. Web framework: Flask
+Python. Web framework: Flask HTML
 
 ### license 
 GNU GENERAL PUBLIC LICENSE
