@@ -22,9 +22,9 @@ Python. Web framework: Flask HTML
 https://realpython.com/tutorials/flask/
 
 Install:
-'''
+```
 pip install flask
-'''
+```
 
 ### license 
 GNU GENERAL PUBLIC LICENSE
