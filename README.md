@@ -18,6 +18,14 @@ Books the saferide shift online. Check more information at https://info.rpi.edu/
 ## Language
 Python. Web framework: Flask HTML
 
+## Simple tutorial for Flask and Flask setup
+https://realpython.com/tutorials/flask/
+
+Install:
+'''
+pip install flask
+'''
+
 ### license 
 GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
