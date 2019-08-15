@@ -6,7 +6,7 @@
 - Design and implement program structure (Done)
 - Design and implement web UI (Partily Done)
 
-## Process
+## Process:
 ### Finished:
 - Learning basic HTML, CSS and JavaScript
 - Get started to using Flask frame work.
@@ -21,7 +21,7 @@
 - RESTful API
 - Setup Test & CI
 
-### Future plans
+### Future plans:
 - CAS login
 - Creating different interfeces for users, drivers and administrators 
 - Allowing client to reservate a ride
