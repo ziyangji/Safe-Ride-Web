@@ -23,8 +23,16 @@ https://realpython.com/tutorials/flask/
 
 Install:
 ```
-pip install flask
+$ brew install python
+$ pip install flask
 ```
+RUN:
+```
+cd ~/Safe-Ride-Web
+python ./app.py
+```
+
+
 
 ### license 
 GNU GENERAL PUBLIC LICENSE
